@@ -23,13 +23,10 @@ All Sales data is stored in SQL Server.
   - DimDate
  
 ### Data Praparation
-1. Data Shaping
-  Use SQL scripts to load necessary shaped tables
+1. Extract - Transfrom - Load (ETL)  
+Use SQL scripts to ETL necessary shaped tables
 2. Data Profiling
-  Every table is good
-4. Enhance Data Structures
-   - Data cleaning
-   - Create measures
+3. Data Cleaning
   
 
    
