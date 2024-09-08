@@ -1,6 +1,6 @@
 # AdventureWorks's Sales Insights Data Analysis
 
-### Business Demand Overview
+## Business Demand Overview
 - Reporter: Stephen (Sales Manager)
 -	Value of Change: Visual dashboards and improved Sales reporting or follow up or sales force
 -	Necessary Systems: Power BI, CRM System
@@ -14,7 +14,12 @@
 | **3** | Sales Representative | A detailed overview of Internet Sales per Customers | Can follow up my customers that buys the most and who we can sell ore to | A Power BI dashboard which allows me to filter data for each customer |
 | **4** | Sales Representative | A detailed overview of Internet Sales per Products | Can follow up my Products that sells the most | A Power BI dashboard which allows me to filter data for each Product |
 
-
-
+### Data Sources & Neccessary Tables
+- Data sources: All Sales data is stored in SQL Server.
+- Nescessary tables:
+  - FactInternetSales
+  - DimCustomer
+  - DimProduct
+  - DimDate
 
 
