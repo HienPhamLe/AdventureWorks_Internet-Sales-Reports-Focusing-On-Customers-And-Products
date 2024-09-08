@@ -15,13 +15,14 @@
 | **4** | Sales Representative | A detailed overview of Internet Sales per Products | Can follow up my Products that sells the most | A Power BI dashboard which allows me to filter data for each Product |
 
 ### Data Sources
-All Sales data is stored in SQL Server.
-- Nescessary tables:
+- All Sales data is stored in SQL Server.
+- SalesBudget is a excel file that was sent over.
+### Nescessary tables:
   - FactInternetSales
   - DimCustomer
   - DimProduct
   - DimDate
- 
+  - SalesBudget
 ### Data Praparation
 1. Extract - Transfrom - Load (ETL)  
 Use SQL scripts to ETL necessary shaped tables
