@@ -14,12 +14,26 @@
 | **3** | Sales Representative | A detailed overview of Internet Sales per Customers | Can follow up my customers that buys the most and who we can sell ore to | A Power BI dashboard which allows me to filter data for each customer |
 | **4** | Sales Representative | A detailed overview of Internet Sales per Products | Can follow up my Products that sells the most | A Power BI dashboard which allows me to filter data for each Product |
 
-### Data Sources & Neccessary Tables
-- Data sources: All Sales data is stored in SQL Server.
+### Data Sources
+All Sales data is stored in SQL Server.
 - Nescessary tables:
   - FactInternetSales
   - DimCustomer
   - DimProduct
   - DimDate
+ 
+### Data Praparation
+1. Data Shaping
+  Use SQL scripts to load necessary shaped tables
+2. Data Profiling
+  Every table is good
+4. Enhance Data Structures
+   - Data cleaning
+   - Create measures
+  
+
+   
+  
+
 
 
